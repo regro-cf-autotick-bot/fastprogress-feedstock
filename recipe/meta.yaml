@@ -17,9 +17,12 @@ build:
 requirements:
   host:
     - python {{ python_min }}
+    - setuptools >=64.0
     - pip
   run:
     - python >={{ python_min }}
+    - fastcore >=1.10.0
+    - python-fasthtml >=0.12.34
 
 test:
   requires:
