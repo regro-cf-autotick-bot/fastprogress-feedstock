@@ -23,6 +23,7 @@ requirements:
     - python >={{ python_min }}
     - fastcore >=1.10.0
     - python-fasthtml >=0.12.34
+    - ipython
 
 test:
   requires:
